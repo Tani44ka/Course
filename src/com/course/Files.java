@@ -8,7 +8,7 @@ import java.util.*;
 import java.text.SimpleDateFormat;
 import java.util.stream.Stream;
 
-public class Main {
+public class Files {
     public static void main(String[] args) throws Exception {
         File file = new File("/Users/tatyana/Downloads/transactionsLog_0.txt");
         File file2 = new File("/Users/tatyana/Downloads/transactionsLog_1.txt");
