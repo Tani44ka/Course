@@ -16,8 +16,8 @@ public class RandomNumbers{
     public static void main(String[] args) {
 
         Random objGenerator = new Random();
-        for (int iCount = 0; iCount< 1000; iCount++){
-            int randomNumber = objGenerator.nextInt(1000);
+        for (int iCount = 0; iCount< 100; iCount++){
+            int randomNumber = objGenerator.nextInt(100);
             System.out.println("Random No : " + randomNumber);
         }
     }
